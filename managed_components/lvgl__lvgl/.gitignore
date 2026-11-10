@@ -1,5 +1,5 @@
 **/*.o
-**/*bin
+#**/*bin
 **/*.swp
 **/*.swo
 **/*.gcda
@@ -17,7 +17,7 @@ build/
 *.bak
 .vs/
 .config*
-config.h
+#config.h
 defconfig
 env/*
 docs-venv

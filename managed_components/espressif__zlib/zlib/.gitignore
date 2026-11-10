@@ -14,7 +14,7 @@
 *.gcov
 
 #/zconf.h
-/Makefile
+#/Makefile
 /example
 /example64
 /examplesh

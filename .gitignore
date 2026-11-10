@@ -5,5 +5,5 @@ build/
 #dependencies.lock
 #*.bin
 *.elf
-*.map
+#*.map
 .vscode/
