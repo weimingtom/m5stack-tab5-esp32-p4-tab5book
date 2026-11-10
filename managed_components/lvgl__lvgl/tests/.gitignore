@@ -1,6 +1,6 @@
 *.out
 *_Runner.c
-*.bin
+#*.bin
 *.dat
 *.raw
 *_err.png
