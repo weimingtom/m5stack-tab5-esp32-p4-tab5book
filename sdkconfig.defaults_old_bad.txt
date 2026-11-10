@@ -1,0 +1,48 @@
+# ---------------------------------------------------------------------------
+# M5Stack Tab5 (ESP32-P4) defaults
+# ---------------------------------------------------------------------------
+CONFIG_IDF_TARGET="esp32p4"
+
+# Tab5 units use ESP32-P4 rev 1.x.  Keep the rev<3 silicon selection so the
+# image boots on stock hardware.  For a rev 3.x board, replace these with
+# CONFIG_ESP32P4_REV_MIN_301=y and rebuild from a clean build directory.
+CONFIG_ESP32P4_SELECTS_REV_LESS_V3=y
+CONFIG_ESP32P4_REV_MIN_100=y
+
+# 16 MB flash, 32 MB PSRAM (hex / 200 MHz on Tab5)
+CONFIG_ESPTOOLPY_FLASHSIZE_16MB=y
+CONFIG_PARTITION_TABLE_CUSTOM=y
+CONFIG_PARTITION_TABLE_CUSTOM_FILENAME="partitions.csv"
+CONFIG_SPIRAM=y
+CONFIG_SPIRAM_MODE_HEX=y
+CONFIG_SPIRAM_SPEED_200M=y
+CONFIG_SPIRAM_USE_MALLOC=y
+CONFIG_SPIRAM_MALLOC_ALWAYSINTERNAL=4096
+CONFIG_SPIRAM_TRY_ALLOCATE_WIFI_LWIP=y
+
+# One 1 kHz tick keeps the LVGL port and touch responsive.
+CONFIG_FREERTOS_HZ=1000
+CONFIG_COMPILER_OPTIMIZATION_PERF=y
+
+# Console on the USB-C USB-Serial/JTAG port (Tab5's normal flashing port).
+CONFIG_ESP_CONSOLE_USB_SERIAL_JTAG=y
+CONFIG_ESP_CONSOLE_SECONDARY_NONE=y
+
+# LVGL: render 80 lines at a time into DMA-capable internal memory.
+CONFIG_BSP_LCD_DRAW_BUF_HEIGHT=80
+CONFIG_BSP_LCD_DRAW_BUF_DOUBLE=y
+CONFIG_BSP_LCD_USE_DMA2D=y
+# 256 KB LVGL heap: chapter lists, dialogs and the reader labels.
+CONFIG_LV_MEM_SIZE=262144
+CONFIG_LV_BUILD_EXAMPLES=n
+CONFIG_LV_BUILD_DEMOS=n
+# The 24 px CJK font has more than 64 KB of glyph bitmap data.
+CONFIG_LV_FONT_FMT_TXT_LARGE=y
+
+# FatFS: long filenames are required for real-world book names.
+CONFIG_FATFS_LFN_HEAP=y
+CONFIG_FATFS_MAX_LFN=255
+CONFIG_FATFS_API_ENCODING_UTF_8=y
+
+# Keep the binary small: we do not use the wireless stack.
+CONFIG_BT_ENABLED=n

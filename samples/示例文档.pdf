@@ -1,0 +1,158 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R 4 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 5 0 R >> >> /Contents 9 0 R >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F2 11 0 R >> >> /Contents 10 0 R >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type0 /BaseFont /NotoSansSC /Encoding /Identity-H /DescendantFonts [6 0 R] /ToUnicode 7 0 R >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /CIDFontType2 /BaseFont /NotoSansSC /CIDSystemInfo << /Registry (Adobe) /Ordering (Identity) /Supplement 0 >> /FontDescriptor 8 0 R /DW 1000 >>
+endobj
+7 0 obj
+<< /Length 1179 >>
+stream
+/CIDInit /ProcSet findresource begin
+12 dict begin
+begincmap
+/CIDSystemInfo << /Registry (Adobe) /Ordering (UCS) /Supplement 0 >> def
+/CMapName /Adobe-Identity-UCS def
+/CMapType 2 def
+1 begincodespacerange
+<0000> <FFFF>
+endcodespacerange
+61 beginbfchar
+<0001> <4E2D>
+<0002> <6587>
+<0003> <0020>
+<0004> <0050>
+<0005> <0044>
+<0006> <0046>
+<0007> <672C>
+<0008> <5C42>
+<0009> <6D4B>
+<000A> <8BD5>
+<000B> <9875>
+<000C> <4F7F>
+<000D> <7528>
+<000E> <0054>
+<000F> <0079>
+<0010> <0070>
+<0011> <0065>
+<0012> <0030>
+<0013> <002F>
+<0014> <0049>
+<0015> <0064>
+<0016> <006E>
+<0017> <0074>
+<0018> <0069>
+<0019> <002D>
+<001A> <0048>
+<001B> <5B57>
+<001C> <4F53>
+<001D> <548C>
+<001E> <006F>
+<001F> <0055>
+<0020> <0063>
+<0021> <0043>
+<0022> <004D>
+<0023> <0061>
+<0024> <3002>
+<0025> <9605>
+<0026> <8BFB>
+<0027> <5668>
+<0028> <5E94>
+<0029> <5F53>
+<002A> <9010>
+<002B> <63D0>
+<002C> <53D6>
+<002D> <5E76>
+<002E> <91CD>
+<002F> <65B0>
+<0030> <6392>
+<0031> <7248>
+<0032> <7B2C>
+<0033> <4E8C>
+<0034> <006C>
+<0035> <0076>
+<0036> <6807>
+<0037> <51C6>
+<0038> <FF0C>
+<0039> <4E8E>
+<003A> <7B80>
+<003B> <5355>
+<003C> <8DEF>
+<003D> <5F84>
+endbfchar
+endcmap
+CMapName currentdict /CMap defineresource pop
+end
+end
+
+endstream
+endobj
+8 0 obj
+<< /Type /FontDescriptor /FontName /NotoSansSC /Flags 4 /FontBBox [0 -200 1000 900] /ItalicAngle 0 /Ascent 900 /Descent -200 /CapHeight 700 /StemV 80 >>
+endobj
+9 0 obj
+<< /Length 537 >>
+stream
+BT
+/F1 22 Tf
+1 0 0 1 60 770 Tm
+<00010002000300040005000600030002000700080009000A> Tj
+/F1 15 Tf
+1 0 0 1 60 730 Tm
+<0007000B000C000D0003000E000F0010001100120003001300030014001500110016001700180017000F0019001A0003001B001C001D0003000E001E001F001600180020001E00150011000300210022002300100024> Tj
+1 0 0 1 60 704 Tm
+<00250026002700280029002A000B002B002C0002001B002D002E002F003000310024> Tj
+1 0 0 1 60 678 Tm
+<00320033000B000C000D0003001A00110034003500110017001800200023000300360037001B001C0038000D00390009000A003A003B001B001C003C003D0024> Tj
+ET
+endstream
+endobj
+10 0 obj
+<< /Length 129 >>
+stream
+BT
+/F2 24 Tf
+1 0 0 1 60 720 Tm
+(Hello Tab5 PDF reader) Tj
+0 -36 Td
+/F2 14 Tf
+(This page uses the standard Helvetica font.) Tj
+ET
+
+endstream
+endobj
+11 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000127 00000 n 
+0000000253 00000 n 
+0000000381 00000 n 
+0000000516 00000 n 
+0000000699 00000 n 
+0000001930 00000 n 
+0000002098 00000 n 
+0000002686 00000 n 
+0000002867 00000 n 
+trailer
+<< /Size 12 /Root 1 0 R >>
+startxref
+2965
+%%EOF
